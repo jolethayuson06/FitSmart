@@ -16,7 +16,7 @@ The Fitness Calculator Menu is a mobile application that offers a comprehensive 
 6.	Body Type Identification: FitSmart incorporates a body type identifier that categorizes users into different body types, such as ectomorph, mesomorph, and endomorph. Understanding one's body type can aid in tailoring exercise and nutrition plans to achieve optimal results.
 7.	Body Fat Percentage Calculator: This calculator allows users to estimate their body fat percentage, which is an essential metric for monitoring overall health and fitness progress. By knowing their body fat percentage, users can adjust their exercise and diet routines accordingly.
 8.	User Profiles and Progress Tracking: FitSmart lets users create personalized body measurement to store their body metrics and health data.
-9.	
+   
 ## Researcher/Developer:
 * Joleth C. Ayuson
 * Diane N. Bengado
