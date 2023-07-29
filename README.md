@@ -5,10 +5,10 @@ FitSmart is a user-friendly and versatile mobile health app designed to help ind
 ## Overview
 The Fitness Calculator Menu is a mobile application that offers a comprehensive set of tools to help users assess and monitor various aspects of their health and fitness. It provides easy access to five different calculators: BMI, BMR, Body Fat, Body Shape, and Ideal Weight. Each calculator serves a unique purpose and empowers users to make informed decisions about their health and fitness goals.
 
-### Requirements 
+## Requirements 
 * Android Studio 4.0 (installed on a Mac, Linux, or Windows machine)
   
-### Features
+## Features
 1.	30-Second Exercise Routines: FitSmart provides quick and effective exercise routines for various muscle groups, including chest, shoulders, core, legs, and biceps. Users can choose from a collection of 30-second exercise videos that can be performed anywhere, anytime, making it perfect for individuals with busy schedules or those who prefer short bursts of exercise.
 2.	Offline Functionality: One of the primary highlights of FitSmart is its ability to work without an internet connection. Users can download exercise videos and health calculators in advance, enabling them to access and utilize the app's features even when offline or in areas with poor internet connectivity.
 3.	BMI Calculator: The app features a Body Mass Index (BMI) calculator, which helps users assess their weight status based on their height and weight. By inputting these details, users can quickly determine whether they are underweight, normal weight, overweight, or obese, providing valuable insights into their overall health.
