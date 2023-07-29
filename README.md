@@ -3,14 +3,18 @@
 FitSmart is a user-friendly and versatile mobile health app designed to help individuals maintain their fitness and track essential health metrics even when they are offline. The app offers a range of exercise routines and health calculators to promote overall well-being and encourage a healthy lifestyle.
 
 ## Overview
-
+* Android Studio 4.0 (installed on a Mac, Linux, or Windows machine)
 
 ## Requirements 
 
 ## Features
 
 ## Researcher/Developer:
-
+* Joleth C. Ayuson
+* Diane N. Bengado
+* Emmanuel Gabriel D. Lobio
+* Alex F. Mendeja
+  
 ## Adviser: 
 * Jefferson A. Costales
 
@@ -27,4 +31,4 @@ ITE Department
 * Bachelor of Science in Computer Science
 
 ## Date: 
-* January 17, 2022
+* July 29, 2023
