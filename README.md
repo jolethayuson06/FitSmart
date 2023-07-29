@@ -23,10 +23,10 @@ The Fitness Calculator Menu is a mobile application that offers a comprehensive 
 * Emmanuel Gabriel D. Lobio
 * Alex F. Mendeja
   
-##### Adviser: 
+## Adviser: 
 * Jefferson A. Costales
 
-###### School Name:
+## School Name:
 Eulogio "Amang" Rodriguez Insitute of Science and Technology
 
 Nagtahan, Sampaloc, Manila, Philippines
@@ -35,8 +35,8 @@ College of Arts and Sciences
 
 ITE Department
 
-####### Course: 
+## Course: 
 * Bachelor of Science in Information Technology
 
-######### Date: 
+## Date: 
 * July 29, 2023
