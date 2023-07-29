@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FitnessCalculatorMobApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".MonthlyRecord"
+            android:exported="false" />
+        <activity
+            android:name=".WeeklyRecord"
+            android:exported="false" />
+        <activity
+            android:name=".MyMeasurements"
+            android:exported="false" />
+        <activity
+            android:name=".IdealWeightCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".BodyTypeCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".BMRCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".BMICalculator"
+            android:exported="false" />
+        <activity
+            android:name=".BodyFatCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity android:name=".WorkoutAct" />
+        <activity android:name=".StartWorkAct" />
+        <activity android:name=".legWorkout" />
+        <activity android:name=".legStart" />
+        <activity android:name=".bicepWorkout" />
+        <activity android:name=".bicepStart" />
+        <activity android:name=".shoulderWorkout" />
+        <activity android:name=".shoulderStart" />
+        <activity android:name=".coreWorkout" />
+        <activity android:name=".coreStart" />
+        <activity android:name=".CalculatorMenu" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

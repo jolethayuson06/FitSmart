@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8FBFD"
+    tools:context=".BMRCalculator">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#F8FBFD">
+
+    <include layout="@layout/toolbar_layout2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BMR Calculator"
+                android:textColor="#050A30"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Using Revised Harris-Benedict Equation"
+                android:textColor="#050A30"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textStyle="italic"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroupGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioBtnMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:textColor="#050A30"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:id="@+id/radioBtnFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:textColor="#050A30"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:text="Female" />
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:hint="User ID"
+                android:text="1"
+                android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Weight (kg)"
+                android:inputType="numberDecimal"
+                android:textSize="17sp"
+                android:textColor="#050A30"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:textAlignment="center"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Height (cm)"
+                android:inputType="numberDecimal"
+                android:textSize="17sp"
+                android:textColor="#050A30"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:textAlignment="center"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Age"
+                android:inputType="number"
+                android:textSize="17sp"
+                android:textColor="#050A30"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:textAlignment="center"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/btnCalculate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2192e8"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:layout_marginBottom="5dp"
+                android:text="Calculate" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvBMR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#050A30"
+                android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/storeBMR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    android:textColor="#050A30"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/BtnSave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:visibility="gone"
+                    android:text="Save"
+                    app:backgroundTint="#1E88E5" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvBMR2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#050A30"
+                android:justificationMode="inter_word"
+                android:textAlignment="textStart"/>
+
+            <TextView
+                android:id="@+id/tvBMISuggest1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="17sp"
+                android:textColor="#050A30"
+                android:justificationMode="inter_word"
+                android:textAlignment="textStart"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
