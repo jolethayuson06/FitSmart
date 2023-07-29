@@ -7,7 +7,7 @@ The Fitness Calculator Menu is a mobile application that offers a comprehensive 
 ## Requirements 
 * Android Studio 4.0 (installed on a Mac, Linux, or Windows machine)
   
-## Features
+### Features
 1.	30-Second Exercise Routines: FitSmart provides quick and effective exercise routines for various muscle groups, including chest, shoulders, core, legs, and biceps. Users can choose from a collection of 30-second exercise videos that can be performed anywhere, anytime, making it perfect for individuals with busy schedules or those who prefer short bursts of exercise.
 2.	Offline Functionality: One of the primary highlights of FitSmart is its ability to work without an internet connection. Users can download exercise videos and health calculators in advance, enabling them to access and utilize the app's features even when offline or in areas with poor internet connectivity.
 3.	BMI Calculator: The app features a Body Mass Index (BMI) calculator, which helps users assess their weight status based on their height and weight. By inputting these details, users can quickly determine whether they are underweight, normal weight, overweight, or obese, providing valuable insights into their overall health.
@@ -17,16 +17,16 @@ The Fitness Calculator Menu is a mobile application that offers a comprehensive 
 7.	Body Fat Percentage Calculator: This calculator allows users to estimate their body fat percentage, which is an essential metric for monitoring overall health and fitness progress. By knowing their body fat percentage, users can adjust their exercise and diet routines accordingly.
 8.	User Profiles and Progress Tracking: FitSmart lets users create personalized body measurement to store their body metrics and health data.
    
-## Researcher/Developer:
+#### Researcher/Developer:
 * Joleth C. Ayuson
 * Diane N. Bengado
 * Emmanuel Gabriel D. Lobio
 * Alex F. Mendeja
   
-## Adviser: 
+##### Adviser: 
 * Jefferson A. Costales
 
-## School Name:
+###### School Name:
 Eulogio "Amang" Rodriguez Insitute of Science and Technology
 
 Nagtahan, Sampaloc, Manila, Philippines
@@ -35,8 +35,8 @@ College of Arts and Sciences
 
 ITE Department
 
-## Course: 
+####### Course: 
 * Bachelor of Science in Information Technology
 
-## Date: 
+######### Date: 
 * July 29, 2023
