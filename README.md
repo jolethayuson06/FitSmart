@@ -9,7 +9,8 @@ The Fitness Calculator Menu is a mobile application that offers a comprehensive 
 * Android Studio 4.0 (installed on a Mac, Linux, or Windows machine)
   
 ## Features
-1.	30-Second Exercise Routines: FitSmart provides quick and effective exercise routines for various muscle groups, including chest, shoulders, core, legs, and biceps. Users can choose from a collection of 30-second exercise videos that can be performed anywhere, anytime, making it perfect for individuals with busy schedules or those who prefer short bursts of exercise.
+1.	30-Second Exercise Routines: FitSmart provides quick and effective exercise routines for various muscle groups, including chest, shoulders, core, legs, and biceps. Users can choose from a collection of 30-second exercise videos that can be performed anywhere, anytime, making it perfect for individuals with busy schedules or those who prefer short bursts of exercise. ![1](https://github.com/jolethayuson06/FitSmart/assets/140879047/6f3fa9b7-9b7b-45b6-997c-f7260badde16)
+
 2.	Offline Functionality: One of the primary highlights of FitSmart is its ability to work without an internet connection. Users can download exercise videos and health calculators in advance, enabling them to access and utilize the app's features even when offline or in areas with poor internet connectivity.
 3.	BMI Calculator: The app features a Body Mass Index (BMI) calculator, which helps users assess their weight status based on their height and weight. By inputting these details, users can quickly determine whether they are underweight, normal weight, overweight, or obese, providing valuable insights into their overall health.![3](https://github.com/jolethayuson06/FitSmart/assets/140879047/52a78a13-0f1c-4337-891a-d82c58bc5fee)
 
